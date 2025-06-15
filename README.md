@@ -1,14 +1,120 @@
+# Library Management System – WPF Application
 
-# Library Application
-## Before you build and try the application you must:
+Une application moderne de gestion de bibliothèque développée avec **WPF (Windows Presentation Foundation)**, permettant de gérer les livres, les auteurs, les utilisateurs, les types de livres et les éditeurs dans un environnement visuel professionnel. Elle s'appuie sur **Microsoft SQL Server** pour la gestion des données et respecte l'architecture **MVVM**.
 
- - Install the font [password.ttf](https://github.com/alexandrubunea/library-wpf-application/blob/master/Library%20Application/Resources/password.ttf)
- - Import the database from the [database script](https://github.com/alexandrubunea/library-wpf-application/blob/master/database.sql).
- - Make sure that your [connection string](https://github.com/alexandrubunea/library-wpf-application/blob/master/Library%20Application/App.config) is correct.
- ## How to get access to library manager
- 1. Create an account in the application.
- 2. Open your database manager and set your account's access level to a value that is higher than one.
- 3. Now you will have access to the library manager, this is the only way to get access to it.
- ## This can be improved
- Feel free to fork this project and try to improve it, there are many things that I probably missed out and can be improved, or just add your own ideas to it.
-## Demo images [here](https://github.com/alexandrubunea/library-wpf-application/tree/master/demo)
+---
+
+##  Fonctionnalités principales
+
+### Authentification
+- Connexion sécurisée via nom d’utilisateur et mot de passe hashé (SHA-512).
+- Deux types d’accès possibles : administrateur et utilisateur simple (selon l’implémentation future).
+
+---
+
+### Gestion des livres (`ManageBooks.xaml`)
+- Affichage de la liste des livres avec pagination et tri.
+- Recherche par titre.
+- Ajout, modification et suppression de livres.
+- Activation/Désactivation d’un livre.
+
+---
+
+### Création de livres (`CreateBook.xaml`)
+- Formulaire complet pour :
+  - Titre du livre
+  - Date de publication
+  - Stock disponible
+  - Type de livre (dropdown)
+  - Éditeur (dropdown)
+  - Auteurs associés (ajout/suppression depuis des listes)
+- Validation de la présence du titre dans la base.
+- Interface moderne avec effets de survol et design responsive.
+
+---
+
+### Gestion des utilisateurs (`ManageUsers.xaml`)
+- Liste des utilisateurs inscrits.
+- Activation/Désactivation d’un utilisateur.
+- Recherche par nom.
+- Affichage des informations de contact (email, téléphone).
+
+---
+
+### Emprunts de livres (`BorrowedBooks.xaml`, `ManageBookBorrows.xaml`)
+- Emprunter un livre à une date précise.
+- Visualisation de tous les livres empruntés avec :
+  - Nom de l'utilisateur
+  - Email
+  - Livre emprunté
+  - Date de retour
+- Gestion de l’état "Actif" ou "Retourné" via une procédure stockée.
+
+---
+
+### Gestion des auteurs (`ManageAuthors.xaml`, `CreateAuthor.xaml`)
+- Liste des auteurs avec leur date de naissance.
+- Ajout d’un nouvel auteur via un formulaire stylisé.
+- Modification et suppression.
+- Activation/Désactivation.
+
+---
+
+### Types de livres (`ManageBookTypes.xaml`, `CreateBookType.xaml`)
+- Ajout de nouveaux types (fiction, non-fiction, etc.).
+- Activation/Désactivation.
+- Edition.
+
+---
+
+### Éditeurs (`ManagePublishers.xaml`, `CreatePublisher.xaml`)
+- Création et gestion des maisons d’édition.
+- Activation/Désactivation.
+
+---
+
+## Architecture technique
+
+### Langages & Frameworks :
+- **C# (.NET 6 ou supérieur)**
+- **WPF (MVVM)**
+- **XAML pour l'interface utilisateur**
+
+### Base de données :
+- **Microsoft SQL Server 2019 Express**
+- Connexion via `SqlConnection` + `Stored Procedures` (`createUserBook`, `setBorrowActiveStatus`, etc.)
+- Tables principales : `Book`, `User`, `Author`, `Publisher`, `UserBook`, `BookType`, `AuthorBook`
+
+---
+
+## Sécurité
+
+- Les mots de passe sont **hashés en SHA-512** avant insertion en base.
+- La base utilise l’authentification SQL Server avec un compte `library` sécurisé.
+
+---
+
+## UI/UX
+
+- Interface moderne avec :
+  - Palette claire et élégante (#FAFBFC, #3182CE, etc.)
+  - Effets de `DropShadow` et `CornerRadius`
+  - Composants stylisés (TextBox, ComboBox, ListBox, Buttons…)
+- Design unifié sur toutes les vues : All Books, Manage, Create, etc.
+
+---
+
+## Tests & Fiabilité
+
+- Vérification des champs obligatoires avant insertion.
+- Gestion des erreurs SQL avec try/catch + affichage utilisateur.
+- Conformité des formats de dates (`dd/MM/yyyy`) pour éviter les exceptions `FormatException`.
+
+---
+
+## Conclusion
+
+Cette application offre une solution complète et professionnelle pour gérer une bibliothèque numérique. Elle est modulable, extensible et peut être adaptée facilement pour un usage scolaire, universitaire ou professionnel. Le design moderne garantit une bonne expérience utilisateur tandis que l’architecture robuste assure fiabilité et évolutivité.
+
+---
+
