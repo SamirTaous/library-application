@@ -73,6 +73,14 @@ Une application moderne de gestion de bibliothèque développée avec **WPF (Win
 
 ---
 
+### Recherche multicritères dans le catalogue 
+- par titre
+- par éditeur
+- par année
+- par type
+
+---
+
 ## Architecture technique
 
 ### Langages & Frameworks :
