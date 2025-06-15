@@ -1,4 +1,4 @@
-# Library Management System – WPF Application
+# BiblioGest – WPF Application
 
 Une application moderne de gestion de bibliothèque développée avec **WPF (Windows Presentation Foundation)**, permettant de gérer les livres, les auteurs, les utilisateurs, les types de livres et les éditeurs dans un environnement visuel professionnel. Elle s'appuie sur **Microsoft SQL Server** pour la gestion des données et respecte l'architecture **MVVM**.
 
@@ -109,6 +109,70 @@ Une application moderne de gestion de bibliothèque développée avec **WPF (Win
 - Vérification des champs obligatoires avant insertion.
 - Gestion des erreurs SQL avec try/catch + affichage utilisateur.
 - Conformité des formats de dates (`dd/MM/yyyy`) pour éviter les exceptions `FormatException`.
+
+---
+
+## Installation
+
+### Prérequis
+
+- **Windows**
+    
+- **.NET Framework 4.7.2 ou plus récent**
+    
+- **Visual Studio 2019 ou 2022**
+    
+- **Microsoft SQL Server** (Express ou supérieur)
+    
+- **SQL Server Management Studio (SSMS)** (optionnel pour gérer la base de données)
+    
+
+---
+
+### Étapes de configuration
+
+1. **Cloner le dépôt Git**
+    
+    ```bash
+    git clone https://github.com/SamirTaous/library-application.git
+    cd library-application
+    ```
+    
+2. **Ouvrir le projet dans Visual Studio**
+    
+    Ouvrez le fichier `Library_Application.sln` dans Visual Studio.
+    
+3. **Configurer la base de données**
+    
+    Dans `App.config`, mettez à jour la chaîne de connexion :
+    
+    ```xml
+    <connectionStrings>
+        <add name="SQLConnStr" connectionString="Server=VOTRE_NOM_SERVEUR;Database=dbBook;User ID=library;Password=motdepasse;TrustServerCertificate=true;"/>
+    </connectionStrings>
+    ```
+    
+    Remplacez :
+    
+    - `VOTRE_NOM_SERVEUR` par quelque chose comme `DESKTOP-XXXX\SQLEXPRESS`
+        
+    - `library` et `motdepasse` par les identifiants de votre utilisateur SQL Server
+        
+4. **Importer la structure de la base de données**
+    
+    Dans SSMS, exécutez le script SQL fourni pour :
+    
+    - Créer la base `dbBook`
+        
+    - Ajouter des utilisateurs (avec mots de passe hachés), livres, auteurs, types de livres, etc.
+        
+5. **Ajouter un utilisateur admin avec AccessLevel>1 pour avoir accès à la partie administration**
+6. **Lancer l’application**
+    
+    - Cliquez sur **Build > Build Solution** dans Visual Studio
+        
+    - Appuyez sur **F5** ou cliquez sur **Start** pour exécuter l'application
+        
 
 ---
 
