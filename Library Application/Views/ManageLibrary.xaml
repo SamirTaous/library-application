@@ -1,0 +1,251 @@
+﻿<UserControl x:Class="Library_Application.Views.ManageLibrary"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Library_Application.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="1000"
+             Background="#FAFBFC">
+
+    <UserControl.Resources>
+        <Style x:Key="ManageButton" TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="FontWeight" Value="Medium"/>
+            <Setter Property="Foreground" Value="#1A202C"/>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#FFFFFF" Offset="0"/>
+                        <GradientStop Color="#F7FAFC" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Margin" Value="8"/>
+            <Setter Property="Padding" Value="24,20"/>
+            <Setter Property="MinHeight" Value="110"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Border Name="shadowBorder" 
+                                    Background="#E2E8F0"
+                                    CornerRadius="16"
+                                    Margin="0,4,4,8"
+                                    Opacity="0.3"/>
+                            <Border Name="mainBorder" 
+                                    Background="{TemplateBinding Background}"
+                                    CornerRadius="16"
+                                    BorderBrush="#E2E8F0"
+                                    BorderThickness="1"
+                                    Margin="0,0,4,4">
+                                <Border Name="innerBorder"
+                                        Background="Transparent"
+                                        CornerRadius="15"
+                                        BorderBrush="Transparent"
+                                        BorderThickness="1">
+                                    <Grid>
+                                        <Rectangle Name="shimmer" 
+                                                  Fill="Transparent" 
+                                                  VerticalAlignment="Top" 
+                                                  Height="2" 
+                                                  Margin="20,0"/>
+                                        <ContentPresenter HorizontalAlignment="Center" 
+                                                        VerticalAlignment="Center"
+                                                        Margin="{TemplateBinding Padding}"/>
+                                    </Grid>
+                                </Border>
+                            </Border>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="mainBorder" Property="BorderBrush" Value="#3182CE"/>
+                                <Setter TargetName="innerBorder" Property="BorderBrush" Value="#63B3ED"/>
+                                <Setter TargetName="shimmer" Property="Fill" Value="#3182CE"/>
+                                <Setter TargetName="mainBorder" Property="Background">
+                                    <Setter.Value>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                            <GradientStop Color="#F7FAFC" Offset="0"/>
+                                            <GradientStop Color="#EDF2F7" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter TargetName="shadowBorder" Property="Background" Value="#3182CE"/>
+                                <Setter TargetName="shadowBorder" Property="Opacity" Value="0.15"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="mainBorder" Property="Margin" Value="2,2,2,2"/>
+                                <Setter TargetName="shadowBorder" Property="Margin" Value="2,2,2,2"/>
+                                <Setter TargetName="mainBorder" Property="Background">
+                                    <Setter.Value>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                            <GradientStop Color="#EDF2F7" Offset="0"/>
+                                            <GradientStop Color="#E2E8F0" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="220"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Enhanced Sidebar -->
+        <Grid Grid.Column="0">
+            <Grid.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#0F172A" Offset="0"/>
+                    <GradientStop Color="#1E293B" Offset="0.5"/>
+                    <GradientStop Color="#334155" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+
+
+
+            <!-- Sidebar content with enhanced styling -->
+            <Border Background="Transparent" 
+                    BorderBrush="#475569" 
+                    BorderThickness="0,0,1,0">
+                <ItemsControl
+                    Style="{StaticResource SideMenu}" 
+                    ItemsSource="{Binding SideBarItems}"
+                    Margin="10">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <MenuItem
+                            Header="{Binding}" 
+                            Style="{StaticResource SideMenuItem}"
+                            Command="{Binding RelativeSource={RelativeSource AncestorType=ItemsControl}, Path=DataContext.SideBarItemsCommand}"
+                            CommandParameter="{Binding}"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </Border>
+        </Grid>
+
+        <!-- Main Content Area with Professional Layout -->
+        <Grid Grid.Column="1">
+            <!-- Background with subtle texture -->
+            <Rectangle>
+                <Rectangle.Fill>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#FAFBFC" Offset="0"/>
+                        <GradientStop Color="#F4F6F8" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+
+            <!-- Content Grid -->
+            <Grid Margin="40,35,35,35">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <!-- Professional Header -->
+                <Grid Grid.Row="0" Margin="0,0,0,45">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Title with sophisticated styling -->
+                    <TextBlock Grid.Row="0"
+                               Text="Library Manager"
+                               FontSize="42"
+                               FontWeight="Light"
+                               Foreground="#1A202C"
+                               Margin="0,0,0,12">
+                        <TextBlock.Effect>
+                            <DropShadowEffect Color="#CBD5E0" 
+                                            Opacity="0.3" 
+                                            ShadowDepth="1" 
+                                            BlurRadius="2"/>
+                        </TextBlock.Effect>
+                    </TextBlock>
+
+                    <!-- Professional accent line with gradient -->
+                    <Rectangle Grid.Row="1" 
+                              Height="4" 
+                              Width="120" 
+                              HorizontalAlignment="Left"
+                              RadiusX="2" 
+                              RadiusY="2">
+                        <Rectangle.Fill>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                                <GradientStop Color="#3182CE" Offset="0"/>
+                                <GradientStop Color="#63B3ED" Offset="0.5"/>
+                                <GradientStop Color="#90CDF4" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                </Grid>
+
+                <!-- Button Grid with Enhanced Layout -->
+                <UniformGrid Grid.Row="1" 
+                            Columns="3" 
+                            Rows="2" 
+                            HorizontalAlignment="Stretch" 
+                            VerticalAlignment="Top"
+                            Margin="0,0,0,20">
+
+                    <Button x:Name="btn_manage_books" 
+                           Content="Manage Books" 
+                           Style="{StaticResource ManageButton}" 
+                           Command="{Binding CommandManageBooks}"/>
+
+                    <Button x:Name="btn_manage_authors" 
+                           Content="Manage Authors" 
+                           Style="{StaticResource ManageButton}" 
+                           Command="{Binding CommandManageAuthors}"/>
+
+                    <Button x:Name="btn_manage_books_types" 
+                           Style="{StaticResource ManageButton}" 
+                           Command="{Binding CommandManageBookTypes}">
+                        <TextBlock TextAlignment="Center" 
+                                  LineHeight="20"
+                                  FontWeight="Medium">
+                            Manage Book<LineBreak/>Types
+                        </TextBlock>
+                    </Button>
+
+                    <Button x:Name="btn_manage_publishing" 
+                           Style="{StaticResource ManageButton}" 
+                           Command="{Binding CommandManagePublishers}">
+                        <TextBlock TextAlignment="Center" 
+                                  LineHeight="20"
+                                  FontWeight="Medium">
+                            Manage<LineBreak/>Publishers
+                        </TextBlock>
+                    </Button>
+
+                    <Button x:Name="btn_manage_users" 
+                           Content="Manage Users" 
+                           Style="{StaticResource ManageButton}" 
+                           Command="{Binding CommandManageUsers}"/>
+
+                    <Button x:Name="btn_manage_books_borrow" 
+                           Style="{StaticResource ManageButton}" 
+                           Command="{Binding CommandManageBooksBorrow}">
+                        <TextBlock TextAlignment="Center" 
+                                  LineHeight="20"
+                                  FontWeight="Medium">
+                            Manage Books<LineBreak/>Borrow
+                        </TextBlock>
+                    </Button>
+                </UniformGrid>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

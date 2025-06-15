@@ -1,0 +1,249 @@
+﻿<UserControl x:Class="Library_Application.Views.CreateBook"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Library_Application.Views"
+             xmlns:utils="clr-namespace:Library_Application.Utils"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="1500">
+
+    <UserControl.Resources>
+        <utils:ErrorConverter x:Key="ErrorConverter" />
+        <utils:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+    </UserControl.Resources>
+
+    <!-- Professional Background -->
+    <Grid>
+        <Rectangle>
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                    <GradientStop Color="#FAFBFC" Offset="0"/>
+                    <GradientStop Color="#F4F6F8" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Grid Margin="40,35,35,35">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Professional Header -->
+            <Grid Grid.Row="0" Margin="0,0,0,35">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0"
+                           Text="Create New Book"
+                           FontSize="42"
+                           FontWeight="Light"
+                           Foreground="#1A202C"
+                           Margin="0,0,0,12">
+                    <TextBlock.Effect>
+                        <DropShadowEffect Color="#CBD5E0" Opacity="0.3" ShadowDepth="1" BlurRadius="2"/>
+                    </TextBlock.Effect>
+                </TextBlock>
+
+                <Rectangle Grid.Row="1" Height="4" Width="120" HorizontalAlignment="Left" RadiusX="2" RadiusY="2">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                            <GradientStop Color="#3182CE" Offset="0"/>
+                            <GradientStop Color="#63B3ED" Offset="0.5"/>
+                            <GradientStop Color="#90CDF4" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+            </Grid>
+
+            <!-- Main Content -->
+            <Grid Grid.Row="1" HorizontalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="450"/>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="450"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Left Panel - Form Fields -->
+                <Border Grid.Column="0" Background="#FFFFFF" CornerRadius="16" BorderBrush="#E2E8F0" BorderThickness="1" Padding="30">
+                    <Border.Effect>
+                        <DropShadowEffect Color="#E2E8F0" Opacity="0.4" ShadowDepth="4" BlurRadius="8"/>
+                    </Border.Effect>
+
+                    <StackPanel>
+                        <!-- Title Field -->
+                        <Grid Margin="0,0,0,25">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Grid.Row="0" Text="Title of the book:" FontSize="14" FontWeight="Medium" Foreground="#374151" Margin="0,0,0,8"/>
+                            <TextBlock Grid.Row="1" Text="{Binding (Validation.Errors), ElementName=input_title, Converter={StaticResource ErrorConverter}}" 
+                                      Style="{StaticResource ErrorLabel}" HorizontalAlignment="Right" Margin="0,0,0,5"/>
+                            <TextBox x:Name="input_title" Grid.Row="2" Text="{Binding Title, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
+                                    FontSize="14" Height="45" Padding="12,10" Background="#FFFFFF" BorderBrush="#E2E8F0" BorderThickness="1"/>
+                        </Grid>
+
+                        <!-- Publish Date Field -->
+                        <Grid Margin="0,0,0,25">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Grid.Row="0" Text="Publishing date [dd.mm.yyyy]:" FontSize="14" FontWeight="Medium" Foreground="#374151" Margin="0,0,0,8"/>
+                            <TextBlock Grid.Row="1" Text="{Binding (Validation.Errors), ElementName=input_publish_date, Converter={StaticResource ErrorConverter}}"
+                                      Style="{StaticResource ErrorLabel}" HorizontalAlignment="Right" Margin="0,0,0,5"/>
+                            <TextBox x:Name="input_publish_date" Grid.Row="2" Text="{Binding PublishDate, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
+                                    FontSize="14" Height="45" Padding="12,10" Background="#FFFFFF" BorderBrush="#E2E8F0" BorderThickness="1"/>
+                        </Grid>
+
+                        <!-- Stock Field -->
+                        <Grid Margin="0,0,0,25">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Grid.Row="0" Text="Number of available copies:" FontSize="14" FontWeight="Medium" Foreground="#374151" Margin="0,0,0,8"/>
+                            <TextBlock Grid.Row="1" Text="{Binding (Validation.Errors), ElementName=input_stock, Converter={StaticResource ErrorConverter}}"
+                                      Style="{StaticResource ErrorLabel}" HorizontalAlignment="Right" Margin="0,0,0,5"/>
+                            <TextBox x:Name="input_stock" Grid.Row="2" Text="{Binding Stock, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
+                                    FontSize="14" Height="45" Padding="12,10" Background="#FFFFFF" BorderBrush="#E2E8F0" BorderThickness="1"/>
+                        </Grid>
+
+                        <!-- Book Type ComboBox -->
+                        <Grid Margin="0,0,0,25">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Grid.Row="0" Text="Select the type of the book:" FontSize="14" FontWeight="Medium" Foreground="#374151" Margin="0,0,0,8"/>
+                            <ComboBox Grid.Row="1" ItemsSource="{Binding AllBookTypes}" SelectedItem="{Binding BookType}" Height="45"
+                                     FontSize="14" Background="#FFFFFF" BorderBrush="#E2E8F0" BorderThickness="1">
+                                <ComboBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Name}" FontSize="14" Foreground="#374151"/>
+                                    </DataTemplate>
+                                </ComboBox.ItemTemplate>
+                            </ComboBox>
+                        </Grid>
+
+                        <!-- Publisher ComboBox -->
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Grid.Row="0" Text="Select the publisher of the book:" FontSize="14" FontWeight="Medium" Foreground="#374151" Margin="0,0,0,8"/>
+                            <ComboBox Grid.Row="1" ItemsSource="{Binding AllPublishers}" SelectedItem="{Binding Publisher}" Height="45"
+                                     FontSize="14" Background="#FFFFFF" BorderBrush="#E2E8F0" BorderThickness="1">
+                                <ComboBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Name}" FontSize="14" Foreground="#374151"/>
+                                    </DataTemplate>
+                                </ComboBox.ItemTemplate>
+                            </ComboBox>
+                        </Grid>
+                    </StackPanel>
+                </Border>
+
+                <!-- Right Panel - Author Management -->
+                <Border Grid.Column="2" Background="#FFFFFF" CornerRadius="16" BorderBrush="#E2E8F0" BorderThickness="1" Padding="30" Margin="0,-88,0,0">
+                    <Border.Effect>
+                        <DropShadowEffect Color="#E2E8F0" Opacity="0.4" ShadowDepth="4" BlurRadius="8"/>
+                    </Border.Effect>
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <!-- All Authors Section -->
+                        <TextBlock Grid.Row="0" Text="All available authors:" FontSize="14" FontWeight="Medium" Foreground="#374151" Margin="0,0,0,8"/>
+                        <ListBox Grid.Row="1" ItemsSource="{Binding AllAuthors}" SelectedItem="{Binding SelectedAllAuthor}"
+                                Height="120" Margin="0,0,0,15" Background="#F8FAFC" BorderBrush="#E2E8F0" BorderThickness="1">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Foreground="#374151" FontSize="13">
+                                        <TextBlock.Text>
+                                            <MultiBinding StringFormat="{}{0} {1}">
+                                                <Binding Path="FirstName"/>
+                                                <Binding Path="LastName"/>
+                                            </MultiBinding>
+                                        </TextBlock.Text>
+                                    </TextBlock>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+
+                        <Button Grid.Row="2" Content="ADD AUTHOR TO THE BOOK" Margin="0,0,0,25" Height="40"
+                               Background="#10B981" Foreground="#FFFFFF" FontWeight="Medium"
+                               Command="{Binding AddAuthor}" CommandParameter="{Binding}"/>
+
+                        <!-- Current Authors Section -->
+                        <TextBlock Grid.Row="3" Text="Current book authors:" FontSize="14" FontWeight="Medium" Foreground="#374151" Margin="0,0,0,8"/>
+                        <Grid Grid.Row="4">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="120"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+                            <ListBox Grid.Row="0" ItemsSource="{Binding CurrentAuthorsCollectionView}" SelectedItem="{Binding SelectedBookAuthor}"
+                                    Background="#F8FAFC" BorderBrush="#E2E8F0" BorderThickness="1" Margin="0,0,0,15">
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Foreground="#374151" FontSize="13">
+                                            <TextBlock.Text>
+                                                <MultiBinding StringFormat="{}{0} {1}">
+                                                    <Binding Path="FirstName"/>
+                                                    <Binding Path="LastName"/>
+                                                </MultiBinding>
+                                            </TextBlock.Text>
+                                        </TextBlock>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+
+                            <Button Grid.Row="1" Content="REMOVE AUTHOR FROM THE BOOK" Height="40" Margin="0,0,0,20"
+                                   Background="#EF4444" Foreground="#FFFFFF" FontWeight="Medium"
+                                   Command="{Binding RemoveAuthor}" CommandParameter="{Binding}"/>
+
+                            <!-- Error Message -->
+                            <TextBlock Grid.Row="2" Text="* A book with this title exists already." Foreground="#EF4444"
+                                      HorizontalAlignment="Center" FontSize="13" Margin="0,0,0,20"
+                                      Visibility="{Binding BookAlreadyExists, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+
+                            <!-- Action Buttons -->
+                            <Grid Grid.Row="3" VerticalAlignment="Bottom">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="15"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Button Grid.Column="0" Content="Save" Height="50" FontSize="16" FontWeight="Medium"
+                                       Background="#10B981" Foreground="#FFFFFF"
+                                       Command="{Binding SaveButton}" CommandParameter="{Binding}"/>
+
+                                <Button Grid.Column="2" Content="Cancel" Height="50" FontSize="16" FontWeight="Medium"
+                                       Background="#EF4444" Foreground="#FFFFFF"
+                                       Command="{Binding CancelButton}" CommandParameter="{Binding}"/>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

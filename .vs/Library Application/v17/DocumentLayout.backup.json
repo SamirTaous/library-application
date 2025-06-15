@@ -1,0 +1,892 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\models\\userbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\models\\userbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\views\\allbooks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\views\\allbooks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\views\\managelibrary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\views\\managelibrary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\commands\\sidebaritemscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\commands\\sidebaritemscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\stores\\navigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\stores\\navigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\utils\\commonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\utils\\commonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\stores\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\stores\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\views\\start.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\views\\start.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\views\\typesofbooks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\views\\typesofbooks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\views\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\views\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\views\\publishing.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\views\\publishing.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\views\\manageusers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\views\\manageusers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\views\\managepublishers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\views\\managepublishers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\views\\managebooktypes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\views\\managebooktypes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\views\\managebooks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\views\\managebooks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\views\\managebookborrows.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\views\\managebookborrows.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\views\\manageauthors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\views\\manageauthors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\views\\createpublisher.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\views\\createpublisher.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\views\\createbooktype.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\views\\createbooktype.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\views\\createbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\views\\createbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\views\\createauthor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\views\\createauthor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\views\\borrowedbooks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\views\\borrowedbooks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\views\\authors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\views\\authors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\viewmodels\\allbooksviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\viewmodels\\allbooksviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samirtaous\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\viewmodels\\managelibraryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\viewmodels\\managelibraryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\commands\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\commands\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samirtaous\\AppData\\Local\\SourceServer\\f995d33b93064f33abe48ed6fccd4539c07c76ab69f10b12130bcf976c113953\\Library Application\\Commands\\SideBarItemsCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\commands\\commandbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\commands\\commandbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\database\\dbutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\database\\dbutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\viewmodels\\loginviewmodelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\viewmodels\\loginviewmodelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\viewmodels\\typesofbooksviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\viewmodels\\typesofbooksviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\viewmodels\\viewmodelbasesidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\viewmodels\\viewmodelbasesidebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\views\\managebooks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\views\\managebooks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\utils\\booleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\utils\\booleantovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\commands\\manageuserscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\commands\\manageuserscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\commands\\startcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\commands\\startcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\commands\\managepublisherscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\commands\\managepublisherscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\models\\restricteddatauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\models\\restricteddatauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samirtaous\\AppData\\Local\\SourceServer\\6f25e08a4a0143829663b65aeb4060b51600682af0b5f2dc4033b06c9b1cd370\\Library Application\\ViewModels\\LoginViewModelViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samirtaous\\AppData\\Local\\SourceServer\\22bd0c8511cd7a0bf559a247b32ef8032e8176de80d4c67ff7bbec2af3ac197c\\Library Application\\Views\\Login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samirtaous\\AppData\\Local\\Temp\\.vsdbgsrc\\aacb2333a08109393d8f0f66ffb8260296dfd2d9055d7bcfd40f4703f9760d39\\Login.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samirtaous\\AppData\\Local\\Temp\\.vsdbgsrc\\f9286fcf83a8e2c8d45acbad1dc124e1d048c2b6c24956d67843d047fb323313\\Login.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samirtaous\\AppData\\Local\\SourceServer\\6e428af6398392121442e0acbe2fe47310c815aa252a5ae6721f808ed8227b74\\Library Application\\Commands\\LoginCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|c:\\users\\samirtaous\\desktop\\library-wpf-application\\library application\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{987AA53A-E359-48DF-8A80-79AC60C62B46}|Library Application\\Library Application.csproj|solutionrelative:library application\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserBook.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Models\\UserBook.cs",
+              "RelativeDocumentMoniker": "Library Application\\Models\\UserBook.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Models\\UserBook.cs",
+              "RelativeToolTip": "Library Application\\Models\\UserBook.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAswFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T02:22:16.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SideBarItemsCommand.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Commands\\SideBarItemsCommand.cs",
+              "RelativeDocumentMoniker": "Library Application\\Commands\\SideBarItemsCommand.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Commands\\SideBarItemsCommand.cs",
+              "RelativeToolTip": "Library Application\\Commands\\SideBarItemsCommand.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAIAwwEQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T02:17:50.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CommonStyles.xaml",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Utils\\CommonStyles.xaml",
+              "RelativeDocumentMoniker": "Library Application\\Utils\\CommonStyles.xaml",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Utils\\CommonStyles.xaml",
+              "RelativeToolTip": "Library Application\\Utils\\CommonStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T02:17:19.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Library Application\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\MainWindow.xaml",
+              "RelativeToolTip": "Library Application\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T00:01:14.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Navigation.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Stores\\Navigation.cs",
+              "RelativeDocumentMoniker": "Library Application\\Stores\\Navigation.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Stores\\Navigation.cs",
+              "RelativeToolTip": "Library Application\\Stores\\Navigation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T23:50:37.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManageLibrary.xaml",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\ManageLibrary.xaml",
+              "RelativeDocumentMoniker": "Library Application\\Views\\ManageLibrary.xaml",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\ManageLibrary.xaml",
+              "RelativeToolTip": "Library Application\\Views\\ManageLibrary.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T00:02:35.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AllBooks.xaml",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\AllBooks.xaml",
+              "RelativeDocumentMoniker": "Library Application\\Views\\AllBooks.xaml",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\AllBooks.xaml",
+              "RelativeToolTip": "Library Application\\Views\\AllBooks.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T01:30:00.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "Library Application\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "Library Application\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T02:16:13.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\App.xaml",
+              "RelativeDocumentMoniker": "Library Application\\App.xaml",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\App.xaml",
+              "RelativeToolTip": "Library Application\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T00:01:10.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ManageBookTypes.xaml",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\ManageBookTypes.xaml",
+              "RelativeDocumentMoniker": "Library Application\\Views\\ManageBookTypes.xaml",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\ManageBookTypes.xaml",
+              "RelativeToolTip": "Library Application\\Views\\ManageBookTypes.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T00:02:37.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TypesOfBooks.xaml",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\TypesOfBooks.xaml",
+              "RelativeDocumentMoniker": "Library Application\\Views\\TypesOfBooks.xaml",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\TypesOfBooks.xaml",
+              "RelativeToolTip": "Library Application\\Views\\TypesOfBooks.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T00:03:02.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Start.xaml",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\Start.xaml",
+              "RelativeDocumentMoniker": "Library Application\\Views\\Start.xaml",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\Start.xaml",
+              "RelativeToolTip": "Library Application\\Views\\Start.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T01:22:43.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Publishing.xaml",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\Publishing.xaml",
+              "RelativeDocumentMoniker": "Library Application\\Views\\Publishing.xaml",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\Publishing.xaml",
+              "RelativeToolTip": "Library Application\\Views\\Publishing.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T00:40:15.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ManageUsers.xaml",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\ManageUsers.xaml",
+              "RelativeDocumentMoniker": "Library Application\\Views\\ManageUsers.xaml",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\ManageUsers.xaml",
+              "RelativeToolTip": "Library Application\\Views\\ManageUsers.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T00:02:28.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Session.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Stores\\Session.cs",
+              "RelativeDocumentMoniker": "Library Application\\Stores\\Session.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Stores\\Session.cs",
+              "RelativeToolTip": "Library Application\\Stores\\Session.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T23:50:30.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Register.xaml",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\Register.xaml",
+              "RelativeDocumentMoniker": "Library Application\\Views\\Register.xaml",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\Register.xaml",
+              "RelativeToolTip": "Library Application\\Views\\Register.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T00:02:23.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ManagePublishers.xaml",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\ManagePublishers.xaml",
+              "RelativeDocumentMoniker": "Library Application\\Views\\ManagePublishers.xaml",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\ManagePublishers.xaml",
+              "RelativeToolTip": "Library Application\\Views\\ManagePublishers.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T00:02:32.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ManageBooks.xaml",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\ManageBooks.xaml",
+              "RelativeDocumentMoniker": "Library Application\\Views\\ManageBooks.xaml",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\ManageBooks.xaml",
+              "RelativeToolTip": "Library Application\\Views\\ManageBooks.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T00:02:46.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ManageBookBorrows.xaml",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\ManageBookBorrows.xaml",
+              "RelativeDocumentMoniker": "Library Application\\Views\\ManageBookBorrows.xaml",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\ManageBookBorrows.xaml",
+              "RelativeToolTip": "Library Application\\Views\\ManageBookBorrows.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T00:02:57.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ManageAuthors.xaml",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\ManageAuthors.xaml",
+              "RelativeDocumentMoniker": "Library Application\\Views\\ManageAuthors.xaml",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\ManageAuthors.xaml",
+              "RelativeToolTip": "Library Application\\Views\\ManageAuthors.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-14T23:59:44.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\Login.xaml",
+              "RelativeDocumentMoniker": "Library Application\\Views\\Login.xaml",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\Login.xaml",
+              "RelativeToolTip": "Library Application\\Views\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-14T23:59:48.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreatePublisher.xaml",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\CreatePublisher.xaml",
+              "RelativeDocumentMoniker": "Library Application\\Views\\CreatePublisher.xaml",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\CreatePublisher.xaml",
+              "RelativeToolTip": "Library Application\\Views\\CreatePublisher.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T00:40:32.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateBookType.xaml",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\CreateBookType.xaml",
+              "RelativeDocumentMoniker": "Library Application\\Views\\CreateBookType.xaml",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\CreateBookType.xaml",
+              "RelativeToolTip": "Library Application\\Views\\CreateBookType.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T00:40:36.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateBook.xaml",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\CreateBook.xaml",
+              "RelativeDocumentMoniker": "Library Application\\Views\\CreateBook.xaml",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\CreateBook.xaml",
+              "RelativeToolTip": "Library Application\\Views\\CreateBook.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T01:03:49.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreateAuthor.xaml",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\CreateAuthor.xaml",
+              "RelativeDocumentMoniker": "Library Application\\Views\\CreateAuthor.xaml",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\CreateAuthor.xaml",
+              "RelativeToolTip": "Library Application\\Views\\CreateAuthor.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T00:40:39.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BorrowedBooks.xaml",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\BorrowedBooks.xaml",
+              "RelativeDocumentMoniker": "Library Application\\Views\\BorrowedBooks.xaml",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\BorrowedBooks.xaml",
+              "RelativeToolTip": "Library Application\\Views\\BorrowedBooks.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T00:40:41.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Authors.xaml",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\Authors.xaml",
+              "RelativeDocumentMoniker": "Library Application\\Views\\Authors.xaml",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\Authors.xaml",
+              "RelativeToolTip": "Library Application\\Views\\Authors.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T01:37:27.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AllBooksViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\ViewModels\\AllBooksViewModel.cs",
+              "RelativeDocumentMoniker": "Library Application\\ViewModels\\AllBooksViewModel.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\ViewModels\\AllBooksViewModel.cs",
+              "RelativeToolTip": "Library Application\\ViewModels\\AllBooksViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T01:29:57.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "XamlReader.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs [Read Only]",
+              "ViewState": "AgIAAKcBAAAAAAAAAADwv74BAAAoAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T00:47:19.177Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ManageLibraryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\ViewModels\\ManageLibraryViewModel.cs",
+              "RelativeDocumentMoniker": "Library Application\\ViewModels\\ManageLibraryViewModel.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\ViewModels\\ManageLibraryViewModel.cs",
+              "RelativeToolTip": "Library Application\\ViewModels\\ManageLibraryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T00:43:20.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SideBarItemsCommand.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\AppData\\Local\\SourceServer\\f995d33b93064f33abe48ed6fccd4539c07c76ab69f10b12130bcf976c113953\\Library Application\\Commands\\SideBarItemsCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\SourceServer\\f995d33b93064f33abe48ed6fccd4539c07c76ab69f10b12130bcf976c113953\\Library Application\\Commands\\SideBarItemsCommand.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\AppData\\Local\\SourceServer\\f995d33b93064f33abe48ed6fccd4539c07c76ab69f10b12130bcf976c113953\\Library Application\\Commands\\SideBarItemsCommand.cs",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\SourceServer\\f995d33b93064f33abe48ed6fccd4539c07c76ab69f10b12130bcf976c113953\\Library Application\\Commands\\SideBarItemsCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T00:09:19.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Commands\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "Library Application\\Commands\\LoginCommand.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Commands\\LoginCommand.cs",
+              "RelativeToolTip": "Library Application\\Commands\\LoginCommand.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowEoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T23:57:53.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TypesOfBooksViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\ViewModels\\TypesOfBooksViewModel.cs",
+              "RelativeDocumentMoniker": "Library Application\\ViewModels\\TypesOfBooksViewModel.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\ViewModels\\TypesOfBooksViewModel.cs",
+              "RelativeToolTip": "Library Application\\ViewModels\\TypesOfBooksViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T00:04:14.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\ViewModels\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "Library Application\\ViewModels\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\ViewModels\\ViewModelBase.cs",
+              "RelativeToolTip": "Library Application\\ViewModels\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T00:04:15.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Library Application\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "Library Application\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T00:04:22.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LoginViewModelViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\ViewModels\\LoginViewModelViewModel.cs",
+              "RelativeDocumentMoniker": "Library Application\\ViewModels\\LoginViewModelViewModel.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\ViewModels\\LoginViewModelViewModel.cs",
+              "RelativeToolTip": "Library Application\\ViewModels\\LoginViewModelViewModel.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAswHgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T00:04:38.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DBUtils.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Database\\DBUtils.cs",
+              "RelativeDocumentMoniker": "Library Application\\Database\\DBUtils.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Database\\DBUtils.cs",
+              "RelativeToolTip": "Library Application\\Database\\DBUtils.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T00:06:04.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CommandBase.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Commands\\CommandBase.cs",
+              "RelativeDocumentMoniker": "Library Application\\Commands\\CommandBase.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Commands\\CommandBase.cs",
+              "RelativeToolTip": "Library Application\\Commands\\CommandBase.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T00:06:20.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ViewModelBaseSideBar.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\ViewModels\\ViewModelBaseSideBar.cs",
+              "RelativeDocumentMoniker": "Library Application\\ViewModels\\ViewModelBaseSideBar.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\ViewModels\\ViewModelBaseSideBar.cs",
+              "RelativeToolTip": "Library Application\\ViewModels\\ViewModelBaseSideBar.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T00:03:47.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ManageBooks.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\ManageBooks.xaml.cs",
+              "RelativeDocumentMoniker": "Library Application\\Views\\ManageBooks.xaml.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\ManageBooks.xaml.cs",
+              "RelativeToolTip": "Library Application\\Views\\ManageBooks.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T00:03:19.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "Library Application\\Views\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Views\\Login.xaml.cs",
+              "RelativeToolTip": "Library Application\\Views\\Login.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T00:00:18.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "BooleanToVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Utils\\BooleanToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "Library Application\\Utils\\BooleanToVisibilityConverter.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Utils\\BooleanToVisibilityConverter.cs",
+              "RelativeToolTip": "Library Application\\Utils\\BooleanToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T00:00:35.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "StartCommand.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Commands\\StartCommand.cs",
+              "RelativeDocumentMoniker": "Library Application\\Commands\\StartCommand.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Commands\\StartCommand.cs",
+              "RelativeToolTip": "Library Application\\Commands\\StartCommand.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T23:58:55.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ManageUsersCommand.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Commands\\ManageUsersCommand.cs",
+              "RelativeDocumentMoniker": "Library Application\\Commands\\ManageUsersCommand.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Commands\\ManageUsersCommand.cs",
+              "RelativeToolTip": "Library Application\\Commands\\ManageUsersCommand.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T23:58:51.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ManagePublishersCommand.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Commands\\ManagePublishersCommand.cs",
+              "RelativeDocumentMoniker": "Library Application\\Commands\\ManagePublishersCommand.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Commands\\ManagePublishersCommand.cs",
+              "RelativeToolTip": "Library Application\\Commands\\ManagePublishersCommand.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T23:58:32.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "RestrictedDataUser.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Models\\RestrictedDataUser.cs",
+              "RelativeDocumentMoniker": "Library Application\\Models\\RestrictedDataUser.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Models\\RestrictedDataUser.cs",
+              "RelativeToolTip": "Library Application\\Models\\RestrictedDataUser.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAwAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T23:57:30.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "LoginViewModelViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\AppData\\Local\\SourceServer\\6f25e08a4a0143829663b65aeb4060b51600682af0b5f2dc4033b06c9b1cd370\\Library Application\\ViewModels\\LoginViewModelViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\SourceServer\\6f25e08a4a0143829663b65aeb4060b51600682af0b5f2dc4033b06c9b1cd370\\Library Application\\ViewModels\\LoginViewModelViewModel.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\AppData\\Local\\SourceServer\\6f25e08a4a0143829663b65aeb4060b51600682af0b5f2dc4033b06c9b1cd370\\Library Application\\ViewModels\\LoginViewModelViewModel.cs",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\SourceServer\\6f25e08a4a0143829663b65aeb4060b51600682af0b5f2dc4033b06c9b1cd370\\Library Application\\ViewModels\\LoginViewModelViewModel.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAHwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T23:51:49.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\AppData\\Local\\SourceServer\\22bd0c8511cd7a0bf559a247b32ef8032e8176de80d4c67ff7bbec2af3ac197c\\Library Application\\Views\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\SourceServer\\22bd0c8511cd7a0bf559a247b32ef8032e8176de80d4c67ff7bbec2af3ac197c\\Library Application\\Views\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\AppData\\Local\\SourceServer\\22bd0c8511cd7a0bf559a247b32ef8032e8176de80d4c67ff7bbec2af3ac197c\\Library Application\\Views\\Login.xaml.cs",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\SourceServer\\22bd0c8511cd7a0bf559a247b32ef8032e8176de80d4c67ff7bbec2af3ac197c\\Library Application\\Views\\Login.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T23:51:45.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\AppData\\Local\\Temp\\.vsdbgsrc\\aacb2333a08109393d8f0f66ffb8260296dfd2d9055d7bcfd40f4703f9760d39\\Login.xaml",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\aacb2333a08109393d8f0f66ffb8260296dfd2d9055d7bcfd40f4703f9760d39\\Login.xaml",
+              "ToolTip": "C:\\Users\\samirtaous\\AppData\\Local\\Temp\\.vsdbgsrc\\aacb2333a08109393d8f0f66ffb8260296dfd2d9055d7bcfd40f4703f9760d39\\Login.xaml [Read Only]",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\aacb2333a08109393d8f0f66ffb8260296dfd2d9055d7bcfd40f4703f9760d39\\Login.xaml [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-14T23:51:42.087Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Login.g.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\AppData\\Local\\Temp\\.vsdbgsrc\\f9286fcf83a8e2c8d45acbad1dc124e1d048c2b6c24956d67843d047fb323313\\Login.g.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\f9286fcf83a8e2c8d45acbad1dc124e1d048c2b6c24956d67843d047fb323313\\Login.g.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\AppData\\Local\\Temp\\.vsdbgsrc\\f9286fcf83a8e2c8d45acbad1dc124e1d048c2b6c24956d67843d047fb323313\\Login.g.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\f9286fcf83a8e2c8d45acbad1dc124e1d048c2b6c24956d67843d047fb323313\\Login.g.cs [Read Only]",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T23:51:36.273Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\AppData\\Local\\SourceServer\\6e428af6398392121442e0acbe2fe47310c815aa252a5ae6721f808ed8227b74\\Library Application\\Commands\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\SourceServer\\6e428af6398392121442e0acbe2fe47310c815aa252a5ae6721f808ed8227b74\\Library Application\\Commands\\LoginCommand.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\AppData\\Local\\SourceServer\\6e428af6398392121442e0acbe2fe47310c815aa252a5ae6721f808ed8227b74\\Library Application\\Commands\\LoginCommand.cs",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\SourceServer\\6e428af6398392121442e0acbe2fe47310c815aa252a5ae6721f808ed8227b74\\Library Application\\Commands\\LoginCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T23:51:30.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Library Application\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\Models\\User.cs",
+              "RelativeToolTip": "Library Application\\Models\\User.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAmwCIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T23:44:39.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\App.config",
+              "RelativeDocumentMoniker": "Library Application\\App.config",
+              "ToolTip": "C:\\Users\\samirtaous\\Desktop\\library-wpf-application\\Library Application\\App.config",
+              "RelativeToolTip": "Library Application\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-14T23:11:28.736Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

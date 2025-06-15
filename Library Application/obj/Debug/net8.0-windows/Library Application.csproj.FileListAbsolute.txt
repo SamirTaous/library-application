@@ -1,0 +1,108 @@
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\Library Application.exe
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\Library Application.dll.config
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\Library Application.deps.json
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\Library Application.runtimeconfig.json
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\Library Application.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\Library Application.pdb
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Library Application.csproj.AssemblyReference.cache
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Utils\CommonStyles.baml
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\AllBooks.g.cs
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\Authors.g.cs
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\BorrowedBooks.g.cs
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\CreateAuthor.g.cs
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\CreateBook.g.cs
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\CreateBookType.g.cs
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\CreatePublisher.g.cs
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\Login.g.cs
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\ManageAuthors.g.cs
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\ManageBookBorrows.g.cs
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\ManageBooks.g.cs
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\ManageBookTypes.g.cs
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\ManageLibrary.g.cs
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\ManagePublishers.g.cs
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\ManageUsers.g.cs
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\Publishing.g.cs
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\Register.g.cs
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\Start.g.cs
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\TypesOfBooks.g.cs
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Library Application_MarkupCompile.cache
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Library Application_MarkupCompile.lref
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\App.baml
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\AllBooks.baml
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\Authors.baml
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\BorrowedBooks.baml
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\CreateAuthor.baml
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\CreateBook.baml
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\CreateBookType.baml
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\CreatePublisher.baml
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\Login.baml
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\ManageAuthors.baml
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\ManageBookBorrows.baml
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\ManageBooks.baml
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\ManageBookTypes.baml
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\ManageLibrary.baml
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\ManagePublishers.baml
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\ManageUsers.baml
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\Publishing.baml
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\Register.baml
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\Start.baml
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Views\TypesOfBooks.baml
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Library Application.g.resources
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Library Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Library Application.AssemblyInfoInputs.cache
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Library Application.AssemblyInfo.cs
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Library Application.csproj.CoreCompileInputs.cache
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Library Application.sourcelink.json
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Library .6E7F3849.Up2Date
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Library Application.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\refint\Library Application.dll
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Library Application.pdb
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\Library Application.genruntimeconfig.cache
+C:\Users\samirtaous\Desktop\library-wpf-application\Library Application\obj\Debug\net8.0-windows\ref\Library Application.dll
